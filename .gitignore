@@ -1,0 +1,116 @@
+# Logs
+dzienniki
+* .log
+npm-debug.log *
+yarn-debug.log *
+yarn-error.log *
+lerna-debug.log *
+
+# Raporty diagnostyczne (https://nodejs.org/api/report.html)
+raport. [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * .json
+
+# Dane wykonawcze
+pids
+* .pid
+* .seed
+* .pid.lock
+
+# Katalog zinstrumentowanych bibliotek wygenerowany przez jscoverage / JSCover
+lib-cov
+
+# Katalog pokrycia używany przez narzędzia takie jak istanbul
+pokrycie
+* .lcov
+
+# Pokrycie testu NYC
+.nyc_output
+
+# Magazyn pośredni Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.chrząknięcie
+
+# Katalog zależności Bower (https://bower.io/)
+bower_components
+
+# Konfiguracja węzła WAF
+.lock-wscript
+
+# Skompilowane dodatki binarne (https://nodejs.org/api/addons.html)
+build / Release
+
+# Katalogi zależności
+node_modules /
+jspm_packages /
+
+# Katalog zależności Snowpack (https://snowpack.dev/)
+web_modules /
+
+# Pamięć podręczna TypeScript
+* .tsbuildinfo
+
+# Opcjonalny katalog pamięci podręcznej npm
+.npm
+
+# Opcjonalna pamięć podręczna eslint
+.eslintcache
+
+# Pamięć podręczna mikrobundle
+.rpt2_cache /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Opcjonalna historia REPL
+.node_repl_history
+
+# Wyjście z 'paczki npm'
+* .tgz
+
+# Plik integralności przędzy
+.yarn-integrity
+
+# plik zmiennych środowiskowych dotenv
+.env
+.env.test
+
+# pamięć podręczna pakietu paczek (https://parceljs.org/)
+.Pamięć podręczna
+.parcel-cache
+
+# Wyjście kompilacji Next.js
+.Kolejny
+na zewnątrz
+
+# Nuxt.js buduje / generuje dane wyjściowe
+.nuxt
+dist
+
+Pliki # Gatsby
+.cache /
+# Komentarz w wierszu publicznym, jeśli Twój projekt używa Gatsby, a nie Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# publiczne
+
+# vuepress dane wyjściowe kompilacji
+.vuepress / dist
+
+# Katalogi bezserwerowe
+.serverless /
+
+# Pamięć podręczna FuseBox
+.fusebox /
+
+# Pliki lokalne DynamoDB
+.dynamodb /
+
+# Plik portu TernJS
+.tern-port
+
+# Przechowuje wersje VSCode używane do testowania rozszerzeń VSCode
+.vscode-test
+
+# przędza v2
+.yarn / cache
+.yarn / unplugged
+.yarn / build-state.yml
+.yarn / install-state.gz
+.pnp. *
