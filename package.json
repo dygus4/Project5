@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/dygus4/Project5#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.14"
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.14",
+    "html-validate": "^4.6.0"
   }
 }
